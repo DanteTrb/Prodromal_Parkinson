@@ -68,14 +68,11 @@ streamlit run webapp.py
 
 ---
 
-## 🌐 **Link pubblico**
-```markdown
 ## 🌐 Deployment Online
 
 L'app è disponibile anche pubblicamente via **Streamlit Cloud**:
 
-👉 [Clicca qui per provarla](https://<TUO-LINK>.streamlit.app)  
-*(link attivo dopo il deploy Streamlit Cloud)*
+👉 [Clicca qui per provarla](https://appromalparkinson-rnf9afzmjxeh8huhotlsze.streamlit.app/)  
 
 ## 🔮 Sviluppi Futuri
 
