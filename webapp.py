@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="🧠 Monitoraggio Prodromico", layout="centered")
 
-st.title("🧠 Valutazione rischio prodromico Parkinson")
+st.title("🧠 Valutazione rischio Parkinson nei soggetti prodromici")
 st.markdown("Inserisci i valori del soggetto sano. Se ha i **prodromi 1011** e parametri clinico-biomeccanici tipici, suggeriremo il monitoraggio.")
 
 st.header("📥 Input soggetto sano")
@@ -28,7 +28,7 @@ onset_val = {"Early (<49)": 1, "Middle (50–69)": 2, "Late (>70)": 3}[onset]
 postural_val = 1 if postural == "Sì" else 2
 
 # === REGOLA 1011: prodromi specifici presenti ===
-has_1011 = st.checkbox("✅ Il soggetto ha la combinazione prodromica 1011", value=True)
+has_1011 = st.checkbox("✅ Il soggetto ha la combinazione prodromica Iposmia + Disturbo del sonno REM + Depressione", value=True)
 
 # === LOGICA DECISIONALE ===
 if st.button("🔍 Valuta il rischio"):
@@ -49,6 +49,6 @@ if st.button("🔍 Valuta il rischio"):
         ):
             st.success("✅ Profilo a rischio identificato: si consiglia **monitoraggio clinico**.")
         else:
-            st.warning("🟡 Il soggetto ha i prodromi 1011 ma **non rientra nei range biomeccanici caratteristici**.")
+            st.warning("🟡 Il soggetto ha i prodromi iposmia + disturbo del sonno REM + Depressione, ma **non rientra nei range biomeccanici caratteristici**.")
     else:
-        st.info("🟢 I prodromi 1011 **non sono presenti**. Nessuna azione urgente.")
+        st.info("🟢 I prodromi Iposmia + Disturbo del sonno + Depressione, **non sono presenti**. Nessuna azione urgente.")
