@@ -1,4 +1,4 @@
-# 🧠 Prodromal Parkinson Monitor: Clinical Rule-based App powered by Streamlit (the real one coming soon)
+# 🧠 Prodromal Parkinson Monitor: Clinical Rule-based App powered by Streamlit (the real one coming soon, stay tuned)
 
 ## 🧾 Overview
 
