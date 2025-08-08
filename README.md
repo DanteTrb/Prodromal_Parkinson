@@ -92,3 +92,5 @@ Sapienza Università di Roma – Dipartimento di Neuroscienze
 
 🔗 [LinkedIn](https://www.linkedin.com/in/dantetrabassi)  
 📬 Contatti disponibili nella sezione profilo
+
+This project integrates explainable AI and generative AI techniques into biomechanics and gait analysis, with a focus on Parkinson's disease.
